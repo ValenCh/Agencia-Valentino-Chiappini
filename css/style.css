@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+.body {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#d7d7d7, grey, #222222cc);
+}
     /* ---------- NAV ----------*/
 .navColor{
     background-color: #FFFF;
