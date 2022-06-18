@@ -43,15 +43,15 @@
 
     /* ------- FOOTER ------- */
     .footer {
-        grid-area: footer;
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
         background-color: black;
         color: aliceblue;
     }
     
     .footer ol {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         margin: 30px;
     }
@@ -68,6 +68,7 @@
     
     .footer h4 {
         margin: 70px;
+        font-size: 20px;
     }
     
     #facebook i:hover {
@@ -95,4 +96,14 @@
 
     #autor{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    @media(max-width:300px ){
+        .navColor{
+            height: 130px;
+        }
+
+        #autor{
+            margin: 0;
+        }
     }
