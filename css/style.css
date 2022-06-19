@@ -40,11 +40,20 @@
     transition: .5s;
 }
 
+    /* ------- MAIN INDEX -------- */
+.card-body{
+    background-color: #b1aeaee7;
+}
+
+.infoIndex{
+    justify-content: space-around;
+}
 
     /* ------- FOOTER ------- */
     .footer {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
         background-color: black;
         color: aliceblue;
     }
@@ -105,5 +114,9 @@
 
         #autor{
             margin: 0;
+        }
+
+        .card-body a{
+            font-size: 10px;
         }
     }
