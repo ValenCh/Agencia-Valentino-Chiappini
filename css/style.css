@@ -10,7 +10,6 @@
 .navColor{
     background-color: #FFFF;
     padding: 0;
-    height: 80px;
 }
 
 #navbarNavDropdown{
@@ -36,7 +35,7 @@
     max-width: 110px;
 }
 .logo:hover{
-    max-width: 120px;
+    max-width: 115px;
     transition: .5s;
 }
 
@@ -108,9 +107,6 @@
     }
 
     @media(max-width:300px ){
-        .navColor{
-            height: 130px;
-        }
 
         #autor{
             margin: 0;
