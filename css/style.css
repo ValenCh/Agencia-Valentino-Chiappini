@@ -48,6 +48,38 @@
     justify-content: space-around;
 }
 
+/* -------------- MAIN SERVICIOS -------------- */
+.sec1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #c4c0c0;
+}
+
+
+#credito, #cambio, #service, #lavadero{
+    max-width: 25rem;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #3b3b3b8e;
+    margin: 15px;
+}
+#service ul{
+    text-align: start;
+}
+#credito a, #cambio a{
+    color: #5eecf7da;
+}
+#credito:hover, #cambio:hover, #service:hover, #lavadero:hover{
+    background-color: #424141e8;
+}
+#credito a:hover, #cambio a:hover{
+    color: #08a9b5da;
+}
+
+
     /* ------- FOOTER ------- */
     .footer {
         display: flex;
@@ -108,11 +140,30 @@
 
     @media(max-width:300px ){
 
-        #autor{
-            margin: 0;
+        .logo{
+            max-width: 50px;
         }
 
+        /* main index */
         .card-body a{
             font-size: 10px;
+        }
+
+        /* main servicios */
+        .container h2{
+            font-size: 20px;
+        }
+        .sec1{
+            font-size: 10px;
+            margin: 10px 0px 10px0px;
+        }
+
+        #redes-sociales{
+            margin: 0;
+            padding: 0;
+        }
+        /* footer */
+        #autor{
+            margin: 0;
         }
     }
