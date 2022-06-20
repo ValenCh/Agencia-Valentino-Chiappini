@@ -55,6 +55,10 @@
     justify-content: space-around;
 }
 
+.carta{
+    overflow: auto;
+}
+
 /* -------------- MAIN SERVICIOS -------------- */
 .sec1 {
     display: flex;
@@ -62,6 +66,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     color: #c4c0c0;
+    overflow: auto;
 }
 
 
